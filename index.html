@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="titulo">M.T.A. Banco.</div>
+    <p id="frase">Tu seguridad financiera</p>
+    <p id="origen">By Securi-Tech</p>
+
+    <div class="formulario">
+        <h1>Inicio de sesion</h1>
+        <form method="post">
+<br>
+         <div class="usuario">
+            <form action="#">
+            <label for="lang">Nombre de usuario</label>
+            <select name="usuario" id="usuario">
+                <option value="selección">Selecciona un usuario</option>
+                <option value="Meztly">Meztly Bayardo</option>
+                <option value="Aydee">Aydee Bayardo</option>
+                <option value="Tonatiuh">Tonatiuh Bayardo</option>
+            </select>
+        </form>
+         </div>
+<br>
+        <div class="contraseña">
+            <label>Contraseña</label>
+            <input type="password" requerid id="password">
+        </div>
+
+        <div class="recordar"><a href="Olvido">¿Olvido su contraseña?</a></div>
+        <input type="submit" value="Iniciar" id="boton-iniciar" onclick="iniciarSesion()">
+        
+        <div class="registrarse">
+            Quiero hacer el <a href="#">registro</a>
+        </div>
+
+        </form>
+
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

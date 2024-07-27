@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    font-size: 150px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+#frase{
+    font-size: 30px;
+    margin-left: 550px;
+    margin-top: 0;
+    color: white;
+
+}
+
+#origen{
+    font-size: 10px;
+    margin-left: 770px;
+    margin-top: 0;
+    color: white;
+
+}
+
+.formulario{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+}
+
+.formulario h1{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid silver;
+}
+
+
+.usuario{
+    display: block;
+    margin-left: 100px;
+    padding-bottom: 5px;
+    
+
+}
+
+.usuario select{
+    display: block;
+    width: 170px;
+   
+}
+
+.contraseña{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-bottom: 10px;
+}
+
+.contraseña input{
+    width: 170px;
+}
+
+.recordar{
+    margin-left: 100px;
+}
+
+#boton-iniciar{
+    margin-left: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+
+
